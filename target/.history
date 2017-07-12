@@ -1,0 +1,13 @@
+console
+println("12")
+console
+compile
+console
+compile
+run
+compile
+run
+sbt test
+sbt 'test-only com.twitter.sample.SampleSpec'
+exit
+console
